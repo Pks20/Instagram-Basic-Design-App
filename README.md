@@ -38,4 +38,4 @@
   it will handle exception and will revert with Http Status code 400 as a BAD_REQUEST.
   The purpose of the project is, If user wants to create his account on Instagram then he has to be sign up and Only sign up user can able to sign in.
   The extra model is for authentication of user who has done signUp / signIn or not. Every User has unique email address and we get authorized through that email which generating token to making user accessible to that app.
-  For posing the data, we are performing crud operations on it with the help of endpoints like @GetMapping to get all the information of the Model, @PostMapping to create a Model Information using the attributes.
+  For posting the data, we are performing crud operations on it with the help of endpoints like @GetMapping to get all the information of the Model, @PostMapping to create a Model Information using the attributes.
